@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/USERR/Desktop/gitproj/bigproj/bstExtension/cmake-build-debug"
+			"value" : "c:/Users/USERR/Desktop/gitproj/bigproj/bstAugmention/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -479,7 +479,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/USERR/Desktop/gitproj/bigproj/bstExtension"
+			"value" : "C:/Users/USERR/Desktop/gitproj/bigproj/bstAugmention"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1095,7 +1095,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/USERR/Desktop/gitproj/bigproj/bstExtension/cmake-build-debug"
+			"value" : "C:/Users/USERR/Desktop/gitproj/bigproj/bstAugmention/cmake-build-debug"
 		},
 		{
 			"name" : "bstExtension_IS_TOP_LEVEL",
@@ -1119,7 +1119,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/USERR/Desktop/gitproj/bigproj/bstExtension"
+			"value" : "C:/Users/USERR/Desktop/gitproj/bigproj/bstAugmention"
 		}
 	],
 	"kind" : "cache",

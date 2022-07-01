@@ -1,3 +1,3 @@
-C:/Users/USERR/Desktop/gitproj/bigproj/bstExtension/cmake-build-debug/CMakeFiles/bstExtension.dir
-C:/Users/USERR/Desktop/gitproj/bigproj/bstExtension/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/USERR/Desktop/gitproj/bigproj/bstExtension/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/USERR/Desktop/gitproj/bigproj/bstAugmention/cmake-build-debug/CMakeFiles/bstExtension.dir
+C:/Users/USERR/Desktop/gitproj/bigproj/bstAugmention/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/USERR/Desktop/gitproj/bigproj/bstAugmention/cmake-build-debug/CMakeFiles/rebuild_cache.dir

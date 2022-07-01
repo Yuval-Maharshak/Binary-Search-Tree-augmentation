@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/USERR/Desktop/gitproj/bigproj/bstExtension/cmake-build-debug",
-		"source" : "C:/Users/USERR/Desktop/gitproj/bigproj/bstExtension"
+		"build" : "C:/Users/USERR/Desktop/gitproj/bigproj/bstAugmention/cmake-build-debug",
+		"source" : "C:/Users/USERR/Desktop/gitproj/bigproj/bstAugmention"
 	},
 	"version" : 
 	{
