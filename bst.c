@@ -1,4 +1,5 @@
 #include "head.h"
+#include <stdio.h>
 
 node * search(BST *bst, double k) {
     node *ptr = bst->root;
