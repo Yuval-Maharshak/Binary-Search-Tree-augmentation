@@ -1,9 +1,8 @@
 # ninja log v5
-14	126	6783238946891461	CMakeFiles/bstExtension.dir/main.c.obj	ead3205a69d59b8
-9	125	6783238946861541	CMakeFiles/bstExtension.dir/memory.c.obj	1c289d44c8b25c73
-2	141	6783238947061003	CMakeFiles/bstExtension.dir/bst.c.obj	bfe29bf569056ebf
-142	275	6783238948327619	bstExtension.exe	db5b8fc9a54cf67c
-27	165	6783672119940340	CMakeFiles/bstExtension.dir/memory.c.obj	c2b573f769688da3
 3	171	6783672119940340	CMakeFiles/bstExtension.dir/main.c.obj	2610f2f9362fc6dd
-14	176	6783672120096552	CMakeFiles/bstExtension.dir/bst.c.obj	1b47041161414653
+27	165	6783672119940340	CMakeFiles/bstExtension.dir/memory.c.obj	c2b573f769688da3
+2	150	6783699244013296	CMakeFiles/bstExtension.dir/bst.c.obj	1b47041161414653
 177	327	6783672121502477	bstExtension.exe	db5b8fc9a54cf67c
+2	186	6783693005590190	CMakeFiles/test.dir/testMacro.c.obj	281d220b786a3ec9
+187	407	6783693007465019	test.exe	ead0094c73cdcf5a
+8	131	6783699243793883	CMakeFiles/bstExtension.dir/augmention.c.obj	44f2f042b1c995c1

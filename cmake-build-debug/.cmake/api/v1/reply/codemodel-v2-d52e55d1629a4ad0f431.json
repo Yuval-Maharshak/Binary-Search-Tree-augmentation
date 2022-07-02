@@ -15,7 +15,9 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1,
+						2
 					]
 				}
 			],
@@ -30,7 +32,9 @@
 					"name" : "bstExtension",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1,
+						2
 					]
 				}
 			],
@@ -39,8 +43,22 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "bstExtension::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-bstExtension-Debug-83a73c4a64b444e2e010.json",
+					"jsonFile" : "target-bstExtension-Debug-32bdefacc25209ec01de.json",
 					"name" : "bstExtension",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test-Debug-10ba67d36dcb1f313790.json",
+					"name" : "test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test1-Debug-1e679ed24452b9caac83.json",
+					"name" : "test1",
 					"projectIndex" : 0
 				}
 			]
