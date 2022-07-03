@@ -67,12 +67,6 @@ build CMakeFiles/bstExtension.dir/memory.c.obj: C_COMPILER__bstExtension_Debug C
   OBJECT_DIR = CMakeFiles\bstExtension.dir
   OBJECT_FILE_DIR = CMakeFiles\bstExtension.dir
 
-build CMakeFiles/bstExtension.dir/augmention.c.obj: C_COMPILER__bstExtension_Debug C$:/Users/USERR/Desktop/gitproj/bigproj/bstAugmention/augmention.c || cmake_object_order_depends_target_bstExtension
-  DEP_FILE = CMakeFiles\bstExtension.dir\augmention.c.obj.d
-  FLAGS = -g -std=gnu11
-  OBJECT_DIR = CMakeFiles\bstExtension.dir
-  OBJECT_FILE_DIR = CMakeFiles\bstExtension.dir
-
 
 # =============================================================================
 # Link build statements for EXECUTABLE target bstExtension
@@ -81,7 +75,7 @@ build CMakeFiles/bstExtension.dir/augmention.c.obj: C_COMPILER__bstExtension_Deb
 #############################################
 # Link the executable bstExtension.exe
 
-build bstExtension.exe: C_EXECUTABLE_LINKER__bstExtension_Debug CMakeFiles/bstExtension.dir/bst.c.obj CMakeFiles/bstExtension.dir/main.c.obj CMakeFiles/bstExtension.dir/memory.c.obj CMakeFiles/bstExtension.dir/augmention.c.obj
+build bstExtension.exe: C_EXECUTABLE_LINKER__bstExtension_Debug CMakeFiles/bstExtension.dir/bst.c.obj CMakeFiles/bstExtension.dir/main.c.obj CMakeFiles/bstExtension.dir/memory.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\bstExtension.dir

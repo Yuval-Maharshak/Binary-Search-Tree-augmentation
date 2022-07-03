@@ -10,7 +10,7 @@
 #define isLeftChild(n) (n->p && n->p->left == n) /* n is the left child of his parent */
 #define isRightChild(n) (n->p && n->p->right == n) /* n is the left child of his parent */
 
-typedef struct Node node;
+/*typedef struct Node node;
 struct Node {
     double key;
     node *p;
@@ -20,7 +20,7 @@ struct Node {
 
 typedef struct BinarySearchTree{
     node *root;
-} BST;
+} BST;*/
 
 BST * subBST(node *n);
 node * createNode(double key);
