@@ -1,4 +1,4 @@
-#include "head.h"
+#include "queriesBST.h"
 
 node * search(BST *bst, double k) {
     node *ptr = bst->root;
@@ -11,25 +11,6 @@ node * search(BST *bst, double k) {
             return ptr;
     }
     return NULL;
-}
-void insert(BST *bst, node *n) {
-    node *ptr = bst->root, *y;
-    while(ptr) {
-        y = ptr;
-        if (isBigger(ptr,n))
-            ptr = ptr->left;
-        else
-            ptr = ptr->right;
-    }
-    n->p = y;
-    if (y) {
-        if (isBigger(y, n))
-            y->left = n;
-        else
-            y->right = n;
-    }
-    else
-        bst->root = n;
 }
 void delete(BST *bst, node *n) {
     node *newSon;

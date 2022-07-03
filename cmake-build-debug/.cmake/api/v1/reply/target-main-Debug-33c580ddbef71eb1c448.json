@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "bstExtension.exe"
+			"path" : "main.exe"
 		},
 		{
-			"path" : "bstExtension.pdb"
+			"path" : "main.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -57,11 +57,11 @@
 			[
 				0,
 				1,
-				3
+				2
 			]
 		}
 	],
-	"id" : "bstExtension::@6890427a1f51a3e7e1df",
+	"id" : "main::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -81,8 +81,8 @@
 		],
 		"language" : "C"
 	},
-	"name" : "bstExtension",
-	"nameOnDisk" : "bstExtension.exe",
+	"name" : "main",
+	"nameOnDisk" : "main.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -96,13 +96,6 @@
 			[
 				0,
 				1,
-				3
-			]
-		},
-		{
-			"name" : "Header Files",
-			"sourceIndexes" : 
-			[
 				2
 			]
 		}
@@ -112,24 +105,19 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "bst.c",
+			"path" : "endResult/main.c",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "main.c",
+			"path" : "endResult/implQueriesBST.c",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "head.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "memory.c",
+			"path" : "endResult/memory.c",
 			"sourceGroupIndex" : 0
 		}
 	],

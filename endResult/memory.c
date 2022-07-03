@@ -1,4 +1,4 @@
-#include "head.h"
+#include "queriesBST.h"
 
 BST * subBST(node *n) {
     BST *b = malloc(sizeof(BST));

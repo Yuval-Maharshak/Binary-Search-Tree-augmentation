@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "dataStruct.h"
 
 #define isBigger(n1, n2) (n1->key > n2->key) /* is the key of n1 bigger than the key of n2 */
 #define isSmaller(n1, n2) (n1->key < n2->key) /* is the key of n1 smaller than the key of n2 */
@@ -10,23 +11,8 @@
 #define isLeftChild(n) (n->p && n->p->left == n) /* n is the left child of his parent */
 #define isRightChild(n) (n->p && n->p->right == n) /* n is the left child of his parent */
 
-typedef struct Node node;
-struct Node {
-    double key;
-    node *p;
-    node *left;
-    node *right;
-};
-
-typedef struct BinarySearchTree{
-    node *root;
-} BST;
-
 BST * subBST(node *n);
 node * createNode(double key);
-
-void insert(BST *, node *);
-void delete(BST *, node *);
 
 node * search(BST *, double);
 node * max(BST *);
@@ -42,4 +28,6 @@ void in_order(node *b);
 void post_order(node *b);
 
 char state(node *n);
+
+
 

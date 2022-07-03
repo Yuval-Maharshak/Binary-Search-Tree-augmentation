@@ -3,4 +3,4 @@ project(bstExtension C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(bstExtension bst.c main.c head.h memory.c)
+add_executable(main endResult/main.c endResult/implQueriesBST.c endResult/memory.c)
