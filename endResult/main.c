@@ -8,10 +8,14 @@ int main() {
     insert(&bst, createNode(4.5));
     insert(&bst, createNode(10));
 
-    inOrderSize(bst.root);
+    inOrderBST(&bst);
+    printf("\n");
+    delete(&bst, bst.root->left);
+    inOrderBST(&bst);
+
 }
 
-void inOrderSize(node *n) {
+void  inOrderSize(node *n) {
     if (n) {
         inOrderSize(n->left);
         printf("%d ", n->fields[0]);

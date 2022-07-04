@@ -45,18 +45,14 @@ void delete(BST *bst, node *n) {    \
         n->p->left = newSon;    \
     else    \
         n->p->right = newSon;       \
+    if (newSon)     \
+        newSon->p = n->p;       \
     while(newSon) {     \
         for (int i = 0; i<NUM_OF_FIELDS; i++) { \
-            n->fields[i] = (funcs)[i](n);              \
+            newSon->fields[i] = (funcs)[i](newSon);              \
         }             \
-        n = n->p;                  \
+        newSon = newSon->p;                  \
     }                       \
-    while(n) {     \
-        for (int i = 0; i<NUM_OF_FIELDS; i++) { \
-            n->fields[i] = (funcs)[i](n);              \
-        }             \
-        n = n->p;                  \
-    }                            \
 }
 
 

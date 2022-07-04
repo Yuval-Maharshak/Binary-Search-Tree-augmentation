@@ -13,6 +13,8 @@ int size(node *n) {
 
 int (*funcs[1]) (node *) = {&size};
 
-Insert(funcs)
+INSERT(funcs)
+
+DELETE(funcs)
 
 
