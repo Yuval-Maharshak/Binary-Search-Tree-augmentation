@@ -11,8 +11,7 @@ int main() {
     inOrderBST(&bst);
     printf("\n");
     delete(&bst, bst.root->left);
-    inOrderBST(&bst);
-
+    inOrderSize(bst.root);
 }
 
 void  inOrderSize(node *n) {

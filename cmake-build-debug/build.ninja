@@ -109,9 +109,56 @@ build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 # =============================================================================
+# Object build statements for EXECUTABLE target test
+
+
+#############################################
+# Order-only phony target for test
+
+build cmake_object_order_depends_target_test: phony || CMakeFiles/test.dir
+
+build CMakeFiles/test.dir/endResult/unit-test.c.obj: C_COMPILER__test_Debug C$:/Users/USERR/Desktop/gitproj/bigproj/bstAugmention/endResult/unit-test.c || cmake_object_order_depends_target_test
+  DEP_FILE = CMakeFiles\test.dir\endResult\unit-test.c.obj.d
+  FLAGS = -g -std=gnu11
+  OBJECT_DIR = CMakeFiles\test.dir
+  OBJECT_FILE_DIR = CMakeFiles\test.dir\endResult
+
+build CMakeFiles/test.dir/endResult/implQueriesBST.c.obj: C_COMPILER__test_Debug C$:/Users/USERR/Desktop/gitproj/bigproj/bstAugmention/endResult/implQueriesBST.c || cmake_object_order_depends_target_test
+  DEP_FILE = CMakeFiles\test.dir\endResult\implQueriesBST.c.obj.d
+  FLAGS = -g -std=gnu11
+  OBJECT_DIR = CMakeFiles\test.dir
+  OBJECT_FILE_DIR = CMakeFiles\test.dir\endResult
+
+build CMakeFiles/test.dir/endResult/memory.c.obj: C_COMPILER__test_Debug C$:/Users/USERR/Desktop/gitproj/bigproj/bstAugmention/endResult/memory.c || cmake_object_order_depends_target_test
+  DEP_FILE = CMakeFiles\test.dir\endResult\memory.c.obj.d
+  FLAGS = -g -std=gnu11
+  OBJECT_DIR = CMakeFiles\test.dir
+  OBJECT_FILE_DIR = CMakeFiles\test.dir\endResult
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target test
+
+
+#############################################
+# Link the executable test.exe
+
+build test.exe: C_EXECUTABLE_LINKER__test_Debug CMakeFiles/test.dir/endResult/unit-test.c.obj CMakeFiles/test.dir/endResult/implQueriesBST.c.obj CMakeFiles/test.dir/endResult/memory.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\test.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = test.exe
+  TARGET_IMPLIB = libtest.dll.a
+  TARGET_PDB = test.exe.dbg
+
+# =============================================================================
 # Target aliases.
 
 build main: phony main.exe
+
+build test: phony test.exe
 
 # =============================================================================
 # Folder targets.
@@ -121,7 +168,7 @@ build main: phony main.exe
 #############################################
 # Folder: C:/Users/USERR/Desktop/gitproj/bigproj/bstAugmention/cmake-build-debug
 
-build all: phony main.exe
+build all: phony main.exe test.exe
 
 # =============================================================================
 # Built-in targets
